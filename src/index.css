@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        background: #000;
+        color: #fff;
+        position: relative;
+        font-family: 'Montserrat', system-ui, sans-serif;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+}
